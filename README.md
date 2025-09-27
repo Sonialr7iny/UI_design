@@ -62,6 +62,8 @@ lib/
 
 ```</pre>
 
-# -------------
+ -------------
 
+## 🎥 Demo Video
 
+[Watch the demo](demo/ui_app_demo.webm)
