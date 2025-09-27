@@ -47,7 +47,7 @@ This project aims to follow Clean Architecture principles:
 ## Project Structure (Illustrative)
 
 
-<pre>```text
+<pre>```
 lib/
 ├── features/
 │   ├── presentation/
