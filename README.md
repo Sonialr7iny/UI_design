@@ -1,4 +1,4 @@
-# Anime UI & 
+# Anime UI & Clean Architecture
 
 This Flutter project serves as a demonstration of a UI design for an anime application, built following the principles of Clean Architecture.Focusing on presentation and domain layers.
 
