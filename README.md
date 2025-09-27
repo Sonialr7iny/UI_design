@@ -46,15 +46,17 @@ This project aims to follow Clean Architecture principles:
 
 ## Project Structure (Illustrative)
 
-  * lib/ ├── features/ │
-                       ├── presentation/ │   
-                                         ├── screens/         # Home, Details, etc. │
-                                         ├── widgets/         # Reusable UI components (custom_nav_bar,) │   
-
-                       ├── domain/ │
-                                   ├── entities/        # AnimeEntity, CharacterEntity │
-                       └── data/ │       ├── datasources/ │       │   └── local/         # local_data_service.dart │
-     └── main.dart
+lib/
+├── features/
+│   ├── presentation/
+│   │   ├── screens/         # Home, Details, etc.
+│   │   ├── widgets/         # Reusable UI components (custom_nav_bar)
+│   ├── domain/
+│   │   ├── entities/        # AnimeEntity, CharacterEntity
+│   ├── data/
+│   │   ├── datasources/
+│   │   │   └── local/       # local_data_service.dart
+├── main.dart
 
 
 
