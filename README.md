@@ -46,6 +46,8 @@ This project aims to follow Clean Architecture principles:
 
 ## Project Structure (Illustrative)
 
+
+<pre>```text
 lib/
 ├── features/
 │   ├── presentation/
@@ -58,7 +60,7 @@ lib/
 │   │   │   └── local/       # local_data_service.dart
 ├── main.dart
 
-
+```</pre>
 
 # -------------
 
