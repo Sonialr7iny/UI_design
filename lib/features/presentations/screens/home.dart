@@ -125,9 +125,11 @@ class _HomeState extends State<Home> {
                       }).toList(),
                     ),
                   ),
-                  currentIndex == 0
-                      ? getFilteredContent(selectedFilter, anime)
-                      : screens[currentIndex],
+                  Expanded(
+                    child: currentIndex == 0
+                        ? getFilteredContent(selectedFilter, anime)
+                        : screens[currentIndex],
+                  ),
                 ],
               ),
             ),
