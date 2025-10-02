@@ -66,4 +66,4 @@ lib/
 
 ## 🎥 Demo Video
 
-[Watch the demo](demo/ui_app_demo.webm)
+[Watch the demo](assets/demo_video/demo_ui.mp4)
